@@ -1,3 +1,6 @@
+Entering CLI Mode, type 'exit' to r
+# Building AutoComplete Cache ... Done!
+#
 # diff
 ###WARNING: NO CUSTOM DEFAULTS FOUND###
 
@@ -132,7 +135,11 @@ color 5 112,0,255
 
 # aux
 aux 0 0 0 1700 2100 0 0
-aux 1 1 1 900 2100 0 0
+aux 1 1 1 900 1250 0 0
+aux 2 13 2 1700 2100 0 0
+aux 3 35 0 900 1300 0 0
+aux 4 36 3 900 1300 0 0
+aux 5 47 1 1300 1700 0 0
 
 # master
 set gyro_lowpass2_hz = 350
@@ -243,5 +250,3 @@ set tpa_breakpoint = 1280
 # end the command batch
 batch end
 
-# clear
-###ERROR: input: UNKNOWN COMMAND, TRY 'HELP'###
